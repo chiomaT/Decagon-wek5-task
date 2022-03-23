@@ -36,3 +36,15 @@ Create A basic node application, that makes a CRUD operation (create, read, upda
     }
 ]
 ```
+
+      organization
+      createdAt
+      updatedAt
+      products
+      marketValue
+      address
+      ceo
+      country
+      id
+      noOfEmployees
+      employees
