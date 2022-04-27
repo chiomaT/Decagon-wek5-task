@@ -16,8 +16,6 @@ async function createPost(req:IncomingMessage, res:ServerResponse) {
         const body = await getPostData(req)
                                                        
         const{ organization,
-            createdAt,
-            updatedAt,
             products,
             marketValue,
             address, 
@@ -29,8 +27,6 @@ async function createPost(req:IncomingMessage, res:ServerResponse) {
 
             const data = {
                 organization,
-                createdAt,
-                updatedAt,
                 products,
                 marketValue,
                 address,
@@ -50,6 +46,7 @@ async function createPost(req:IncomingMessage, res:ServerResponse) {
 
 }
 
+//get a specific data by it's id
 async function getById(req:IncomingMessage, res:ServerResponse,id:string) {
     try {
         const dataId = await Companies.findById(id)
@@ -79,8 +76,6 @@ async function update(req:IncomingMessage, res:ServerResponse, id:string) {
         else {
             const body = await getPostData(req)
             const{ organization,
-                createdAt,
-                updatedAt,
                 products,
                 marketValue,
                 address, 
@@ -92,8 +87,7 @@ async function update(req:IncomingMessage, res:ServerResponse, id:string) {
     
                 const updateData = {
                     organization: organization || dataUpdate.organization,
-                    createdAt: createdAt || dataUpdate.createdAt,
-                    updatedAt: updatedAt || dataUpdate.updatedAt,
+                    createdAt: dataUpdate.createdAt,
                     products: products || dataUpdate.products,
                     marketValue: marketValue || dataUpdate.marketValue,
                     address: address || dataUpdate.address,
@@ -103,7 +97,7 @@ async function update(req:IncomingMessage, res:ServerResponse, id:string) {
                     employees: employees || dataUpdate.employees
                 }
     
-                const newProduct = await Companies.updateData(id, updateData)
+                const newProduct = await Companies.updateProduct(id, updateData)
                 res.writeHead(201, { 'Content-Type': 'application/json' })
                 return res.end(JSON.stringify(newProduct))  
         }

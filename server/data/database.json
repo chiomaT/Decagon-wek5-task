@@ -1,1 +1,146 @@
-[{"id":"de4e94e2-0e69-4a5f-aa77-20b0ffb327ca","organization":"node ninja","createdAt":"2020-08-12T19:04:55.455Z","updatedAt":"2020-08-12T19:04:55.455Z","marketValue":"90%","address":"sangotedo","ceo":"cn","country":"Taiwan","noOfEmployees":2,"employees":["james bond","jackie chan"]},{"id":"942ebbab-58c5-4f44-a49d-3bb437cd52e1"}]
+[
+    {
+        "id": "d200af19-29ff-42fb-b809-a14835d2ff83",
+        "updatedAt": "2022-03-24T19:52:18.582Z",
+        "organization": "node ninja",
+        "createdAt": "2020-08-12T19:04:55.455Z",
+        "products": [
+            "developers",
+            "pizza"
+        ],
+        "marketValue": "90%",
+        "address": "sangotedo",
+        "ceo": "Ebenezer",
+        "country": "Nigeria",
+        "noOfEmployees": 3,
+        "employees": [
+            "james bond",
+            "jackie chan"
+        ]
+    },
+    {
+        "id": "081d8120-969f-4b72-b2a4-f6c3662f489c",
+        "organization": "node ninja",
+        "products": [
+            "developers",
+            "pizza"
+        ],
+        "marketValue": "90%",
+        "address": "sangotedo",
+        "ceo": "cn",
+        "country": "Taiwan",
+        "noOfEmployees": 2,
+        "employees": [
+            "james bond",
+            "jackie chan"
+        ]
+    },
+    {
+        "id": "244e5db0-4eba-4ca6-803a-bb4b9de6d13a",
+        "organization": "node ninja",
+        "products": [
+            "developers",
+            "pizza"
+        ],
+        "marketValue": "90%",
+        "address": "sangotedo",
+        "ceo": "cn",
+        "country": "Taiwan",
+        "noOfEmployees": 2,
+        "employees": [
+            "james bond",
+            "jackie chan"
+        ]
+    },
+    {
+        "id": "5e233c1a-4628-461f-b4e1-31e161473675",
+        "organization": "node ninja",
+        "products": [
+            "developers",
+            "pizza"
+        ],
+        "marketValue": "90%",
+        "address": "sangotedo",
+        "ceo": "cn",
+        "country": "Taiwan",
+        "noOfEmployees": 2,
+        "employees": [
+            "james bond",
+            "jackie chan"
+        ]
+    },
+    {
+        "id": "acf6e5b3-4c71-40eb-a919-ce68a92f0557",
+        "organization": "node ninja",
+        "products": [
+            "developers",
+            "pizza"
+        ],
+        "marketValue": "90%",
+        "address": "sangotedo",
+        "ceo": "cn",
+        "country": "Taiwan",
+        "noOfEmployees": 2,
+        "employees": [
+            "james bond",
+            "jackie chan"
+        ]
+    },
+    {
+        "id": "9abedcb5-5223-4885-a734-1744b5dde96c",
+        "createdAt": "2022-03-24T19:26:57.020Z",
+        "updatedAt": "2022-03-24T19:26:57.020Z",
+        "organization": "node ninja",
+        "products": [
+            "developers",
+            "pizza"
+        ],
+        "marketValue": "90%",
+        "address": "sangotedo",
+        "ceo": "cn",
+        "country": "Taiwan",
+        "noOfEmployees": 2,
+        "employees": [
+            "james bond",
+            "jackie chan"
+        ]
+    },
+    {
+        "id": "35f83725-d2ee-4e6d-be6d-f7379f335de1",
+        "updatedAt": "2022-03-24T19:30:07.867Z",
+        "organization": "node ninja",
+        "createdAt": "2022-03-24T19:28:52.967Z",
+        "products": [
+            "developers",
+            "pizza"
+        ],
+        "marketValue": "90%",
+        "address": "sangotedo",
+        "ceo": "cn",
+        "country": "Taiwan",
+        "noOfEmployees": 2,
+        "employees": [
+            "james bond",
+            "jackie chan"
+        ]
+    },
+    {
+        "id": "5aa1aad0-3e39-466f-9e9d-5d544daea185",
+        "createdAt": "2022-03-24T19:30:41.663Z",
+        "updatedAt": "2022-03-24T19:30:41.663Z",
+        "organization": "node ninja",
+        "products": [
+            "developers",
+            "pizza"
+        ],
+        "marketValue": "90%",
+        "address": "sangotedo",
+        "ceo": "cn",
+        "country": "Taiwan",
+        "noOfEmployees": 2,
+        "employees": [
+            "james bond",
+            "jackie chan"
+        ]
+    }
+]

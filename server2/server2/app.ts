@@ -10,11 +10,14 @@ const PORT = process.env.PORT || 4001
 const server: Server = http.createServer((req: IncomingMessage, res: ServerResponse) => {
   if (req.url === '/api/web' && req.method === 'POST') {
     let url = "";
+    //get the data in chunks
     req.on("data", (chunk) => {
+      //append to the url
       url += chunk.toString()
     })
     req.on("end", () => {
       url = JSON.parse(url)
+      
       https.get(url, (resp: IncomingMessage) => {
         let data: string[] = []
         resp.on('data', (chunk) => {
